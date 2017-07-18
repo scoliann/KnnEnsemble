@@ -53,6 +53,8 @@ Each classifier is run on each dataset using 10 by 10-Fold Stratified Cross Vali
 
 Tests are then performed to calculate the error reduction rates on each of the aforementioned tables.  The error reduction rate is the percent decrease in error that a classifier has compared to the baseline KNN.  At the bottom of the table is an average of the error reduction rate for each classifier.  The results can be seen in `ErrorReductionRateTable_Onehot.png` and `ErrorReductionRateTable_VDM.png`.
 
+![alt text](https://github.com/scoliann/KnnEnsemble/blob/master/GeneralizationErrorTable_Onehot.png)
+
 ## Interpreting the Results
 Several important results can be gleaned from examining `GeneralizationErrorTable_Onehot.png` and `GeneralizationErrorTable_VDM.png`:
 1.  For both one hot and VDM encoding, the fasbir_5 algorithm (ie. the FASBIR algorithm with constant K value for component classifiers, and the `bordaCount_allK_bordaOrder` voting method) yielded the most instances of the `significantly best performance`.  This means that fasbir_5 was the best (or statistically indistinguishable from the best) algorithm for the most number of data sets for both types of encoding.
