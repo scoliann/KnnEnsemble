@@ -53,7 +53,17 @@ Each classifier is run on each dataset using 10 by 10-Fold Stratified Cross Vali
 
 Tests are then performed to calculate the error reduction rates on each of the aforementioned tables.  The error reduction rate is the percent decrease in error that a classifier has compared to the baseline KNN.  At the bottom of the table is an average of the error reduction rate for each classifier.  The results can be seen in `ErrorReductionRateTable_Onehot.png` and `ErrorReductionRateTable_VDM.png`.
 
+### Generalization Error Table with One Hot Encoding
 ![alt text](https://github.com/scoliann/KnnEnsemble/blob/master/GeneralizationErrorTable_Onehot.png)
+
+### Generalization Error Table with VDM Encoding
+![alt text](https://github.com/scoliann/KnnEnsemble/blob/master/GeneralizationErrorTable_VDM.png)
+
+### Error Reduction Rate Table with One Hot Encoding
+![alt text](https://github.com/scoliann/KnnEnsemble/blob/master/ErrorReductionRateTable_Onehot.png)
+
+### Error Reduction Rate Table with VDM Encoding
+![alt text](https://github.com/scoliann/KnnEnsemble/blob/master/ErrorReductionRateTable_VDM.png)
 
 ## Interpreting the Results
 Several important results can be gleaned from examining `GeneralizationErrorTable_Onehot.png` and `GeneralizationErrorTable_VDM.png`:
