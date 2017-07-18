@@ -83,6 +83,12 @@ A brief tuning of some of the hyper-parameters yielded a classifier that achieve
 
 Most importantly, this massive improvement was achieved without tuning the hyper-parameter for ensemble size (which certainly one of the most important features), and was done with an `n_iter` value of 10 for `RandomSearchCV`.  This `n_iter` value is also on the low side, but was chosen to speed up run time.
 
+### Generalized Error Table with One Hot Encoding and Tuned Hyper-Parameters
+![alt text](https://github.com/scoliann/KnnEnsemble/blob/master/GeneralizationErrorTable_RandomizedSearchCV_Onehot.png)
+
+### Error Reduction Rate Table with One Hot Encoding and Tuned Hyper-Parameters
+![alt text](https://github.com/scoliann/KnnEnsemble/blob/master/ErrorReductionRateTable_RandomizedSearchCV_Onehot.png)
+
 ## Conclusions
 The results of this study lead me to believe that for some voting methods in my algorithm, perturbing on K values can offer significant improvement.  This especially seems to be the case with the first three voting methods, which are all forms of majority voting.
 
