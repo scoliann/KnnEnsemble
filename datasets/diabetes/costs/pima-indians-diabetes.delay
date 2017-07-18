@@ -1,0 +1,9 @@
+times_pregnant:		immediate.
+glucose_tol:		delayed.
+diastolic_pb:		immediate.
+triceps:		immediate.
+insulin:		delayed.
+mass_index:		immediate.
+pedigree:		immediate.
+age:			immediate.
+

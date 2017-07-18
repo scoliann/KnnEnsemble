@@ -1,0 +1,8 @@
+Index of costs
+
+02 Dec 1996      290 Index
+05 Dec 1995     2313 pima-indians-diabetes.README
+05 Dec 1995      139 pima-indians-diabetes.cost
+05 Dec 1995      182 pima-indians-diabetes.delay
+05 Dec 1995      189 pima-indians-diabetes.expense
+05 Dec 1995       34 pima-indians-diabetes.group

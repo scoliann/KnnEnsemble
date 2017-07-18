@@ -1,0 +1,7 @@
+Index of sonar
+
+02 Dec 1996      178 Index
+17 Jul 1990    87776 sonar.all-data
+26 Jun 1990    49217 sonar.mines
+26 Jun 1990     5872 sonar.names
+26 Jun 1990    43052 sonar.rocks

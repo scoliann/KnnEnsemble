@@ -1,0 +1,6 @@
+Index of german
+
+02 Dec 1996      150 Index
+17 Nov 1994    79793 german.data
+17 Nov 1994   102000 german.data-numeric
+17 Nov 1994     4679 german.doc

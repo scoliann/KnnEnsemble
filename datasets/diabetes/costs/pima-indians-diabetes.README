@@ -1,0 +1,72 @@
+
+
+Test Costs for the pima-indians-diabetes Data
+---------------------------------------------
+
+
+Peter Turney
+June 7, 1995
+
+
+
+There are four files, in a C4.5-like format, that contain information
+related to cost:
+
+	1. pima-indians-diabetes.cost
+	2. pima-indians-diabetes.delay
+	3. pima-indians-diabetes.expense
+	4. pima-indians-diabetes.group
+
+For more information on the use and meaning of these files, see:
+
+http://www.cs.washington.edu/research/jair/volume2/turney95a-html/title.html
+
+The remainder of this file describes the format of the above four
+files.
+
+
+pima-indians-diabetes.cost
+--------------------------
+
+Each row has the format "<test>: <cost>". The cost is in Canadian
+dollars. The cost information is from the Ontario Health Insurance
+Program's fee schedule. The costs in this file are for individual
+tests, considered in isolation.  When tests are performed in groups,
+there may be discounts, due to shared common costs. Groups of tests
+with common costs are identified in the file "pima-indians-diabetes.group". 
+Costs with discounts are in the file "pima-indians-diabetes.expense".
+
+
+pima-indians-diabetes.delay
+---------------------------
+
+Each row has the format "<test>: <immediate/delayed>". Tests with
+immediate results are marked "immediate". Tests with delayed results
+are marked "delayed". Delayed tests are typically blood tests, which
+are usually shipped to a laboratory. The results are sent back to the
+doctor the next day.
+
+
+pima-indians-diabetes.expense
+-----------------------------
+
+Each row has the format "<test>: <full cost>, <discount cost>".  The
+full cost is charged when the given test is the first test of its group
+that has been ordered for a given patient. The discount cost is charged
+when the given test is the second or later test of its group that has
+been ordered. Typically the difference between the full cost and the
+discount cost is $2.10, which is the common (shared) cost of collecting
+blood from the patient.
+
+
+pima-indians-diabetes.group
+---------------------------
+
+The first row lists the groups. The remaining rows have the format
+"<test>: <group>". The symbols used for groups are arbitrary. The
+information in this file is meant to be used together with the
+information in "pima-indians-diabetes.expense". The tests in a group
+share a common cost.
+
+
+
