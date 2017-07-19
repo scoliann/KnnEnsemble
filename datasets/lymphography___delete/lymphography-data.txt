@@ -1,5 +1,0 @@
-This is a restricted data set.  To access this dataset, please send a 
-request to ml-repository 'at' ics 'dot' uci 'dot' edu 
-
-Include in the request the name of this data set and the name of your 
-educational institution.
